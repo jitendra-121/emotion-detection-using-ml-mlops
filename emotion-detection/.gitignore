@@ -1,6 +1,10 @@
 venv
-models
 reports
+# Ignore all models folders
+models
+
+# Allow src/models to be committed
+!src/models/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
